@@ -9,17 +9,42 @@
 body{
     background-color: hsl(36, 100%, 99%);
     height: 100vh;
+    margin: 100px;
 }
-
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
 }
-
-ul li{
-    display: inline-block;
+nav ul{
     text-align: end;
 }
-
-
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav img{
+    display: inline-block;
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+.blocksdiv{
+grid-area: 1 / 1 / span 2/ span 2;
+}
+.newdiv{
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    grid-area: 3 / 1 / span 2/ 2;
+} 
+.h1div{
+    grid-area: 2 / 1 / 2 / 1;
+}
+button{
+    background-color: hsl(5, 85%, 63%);
+    padding: 20px 0px ;
+}
