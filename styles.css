@@ -6,3 +6,20 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+body{
+    background-color: hsl(36, 100%, 99%);
+    height: 100vh;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+ul li{
+    display: inline-block;
+    text-align: end;
+}
+
+
