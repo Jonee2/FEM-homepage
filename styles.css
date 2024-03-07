@@ -34,15 +34,24 @@ main{
     gap: 20px;
 }
 .blocksdiv{
-grid-area: 1 / 1 / span 2/ span 2;
+grid-area: 1 / 1 / 1/ span 2;
+background-color: blue;
+}
+.buttondiv{
+grid-area: 2 / 2 / 2 / 2;
 }
 .newdiv{
     background-color: hsl(240, 100%, 5%);
     color: hsl(36, 100%, 99%);
-    grid-area: 3 / 1 / span 2/ 2;
+    grid-area: 1 / 3 / span 2 / 3;
 } 
 .h1div{
     grid-area: 2 / 1 / 2 / 1;
+    background-color: orange;
+}
+.articlediv{
+    display: inline-block;
+    grid-area: 3 / 1 / 3/ span 3;
 }
 button{
     background-color: hsl(5, 85%, 63%);
