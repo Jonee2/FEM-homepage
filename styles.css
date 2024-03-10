@@ -10,7 +10,7 @@
 }
 body{
     background-color: hsl(36, 100%, 99%);
-    margin: 100px 400px;
+    margin: 0px 500px;
     font-family: "Inter", sans-serif;
     font-size: 15px;
 }
@@ -26,7 +26,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin: 10px 20px;
-    font-weight: 700;
+    font-weight: 400;
     color:hsl(236, 13%, 42%)
 }
 nav ul li:hover{
@@ -38,24 +38,26 @@ nav img{
 }
 main{
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 280px 300px 400px;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 280px 250px 300px;
     gap: 20px;
 }
 
 #blocksdiv{
 grid-area: 1 / 1 / 1 / span 2;
+background-image: url(assets/images/image-web-3-desktop.jpg);
+background-size: cover;
+
 }
 .buttondiv{
-text-wrap:wrap;
+text-wrap: pretty;
 grid-area: 2 / 2 / 2 / 2;
-line-height: 2;
-font-size: 16px;
+font-size:16px;
 color: hsl(236, 13%, 42%);
- margin-top: 30px;
+text-align: start;
 }
 .buttondiv button{
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     border: 0;
     padding:20px 50px;
@@ -83,12 +85,12 @@ button:hover{
 }
 .newdiv .titleblackbox{
     font-weight: 800;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 40px;
 }
 .newdiv .parawhite{
     margin-bottom:30px;
-    font-size: 16px;
+    font-size: 13px;
     color: hsl(233, 8%, 79%)
 
 }
@@ -98,8 +100,9 @@ button:hover{
 }
 .h1div{
     grid-area: 2 / 1 / 2 / 1;
-    font-size: 32px;
+    font-size: 28px;
     margin: 0;
+    margin-top: -40px;
 }
 .articlegrid, .articlegrid2, .articlegrid3 img{
     float: left;
