@@ -1,158 +1,159 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
-body{
-    background-color: hsl(36, 100%, 99%);
-    margin: 0px 500px 100px;
-    font-family: "Inter", sans-serif;
-    font-size: 15px;
+body {
+  background-color: hsl(36, 100%, 99%);
+  margin: 0px 500px 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
 }
-nav ul{
-    text-align: end;
+nav ul {
+  text-align: end;
 }
-nav ul li{
-    display: inline-block;
-    margin: 10px 20px;
-    font-weight: 400;
-    color:hsl(236, 13%, 42%)
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-weight: 400;
+  color: hsl(236, 13%, 42%);
 }
-nav ul li:hover{
-    color: hsl(35, 77%, 62%);
-    cursor: pointer
+nav ul li:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
 }
-nav img{
-    display: inline-block;
+nav img {
+  display: inline-block;
 }
-main{
-    display: grid;
-    grid-template-columns: 330px 330px 330px;
-    grid-template-rows: 280px 150px 300px;
-    gap: 20px;
+main {
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  grid-template-rows: 280px 150px 300px;
+  gap: 20px;
 }
 
-#blocksdiv{
-grid-area: 1 / 1 / 1 / span 2;
-background-image: url(assets/images/image-web-3-desktop.jpg);
-background-size: cover;
-
+#blocksdiv {
+  grid-area: 1 / 1 / 1 / span 2;
+  background-image: url(assets/images/image-web-3-desktop.jpg);
+  background-size: cover;
 }
-.buttondiv{
-grid-area: 2 / 2 / 2 / 2;
-font-size:14px;
-color: hsl(236, 13%, 42%);
-text-align: start;
+.buttondiv {
+  grid-area: 2 / 2 / 2 / 2;
+  font-size: 14px;
+  color: hsl(236, 13%, 42%);
+  text-align: start;
 }
-.buttondiv button{
-    font-size: 14px;
-    color: white;
-    border: 0;
-    padding:15px 40px;
-    margin-top: 10px;
-    letter-spacing: 2px;
-    font-weight: 700;
+.buttondiv button {
+  font-size: 14px;
+  color: white;
+  border: 0;
+  padding: 15px 40px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
-button:hover{
-    cursor: pointer;
-    background-color: black;
+button:hover {
+  cursor: pointer;
+  background-color: black;
 }
-.newdiv{
-    background-color: hsl(240, 100%, 5%);
-    color: hsl(36, 100%, 99%);
-    grid-area: 1 / 3 / span 2 / 3;
-    padding: 0px 40px 0px 0px;
-} 
-.newdiv ul{
-    list-style: none;
+.newdiv {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  grid-area: 1 / 3 / span 2 / 3;
+  padding: 0px 40px 0px 0px;
 }
-.newdiv h2{
-    color: hsl(35, 77%, 62%);
-    font-size: 3em;
-    margin: 20px 0px 0px -20px;
+.newdiv ul {
+  list-style: none;
 }
-.newdiv .titleblackbox{
-    font-weight: 800;
-    font-size: 16px;
-    margin-top: 30px;
+.newdiv h2 {
+  color: hsl(35, 77%, 62%);
+  font-size: 3em;
+  margin: 20px 0px 0px -20px;
 }
-.newdiv .parawhite{
-    margin-bottom:29px;
-    font-size: 13px;
-    color: hsl(233, 8%, 79%);
+.newdiv .titleblackbox {
+  font-weight: 800;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.newdiv .parawhite {
+  margin-bottom: 29px;
+  font-size: 13px;
+  color: hsl(233, 8%, 79%);
 }
 .newdiv .titleblackbox:hover {
-    color: hsl(35, 77%, 62%);
-    cursor: pointer;
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
 }
-.newdiv2{
-    border-bottom: 1px solid white;
-    margin-left: -20px;
+.newdiv2 {
+  border-bottom: 1px solid white;
+  margin-left: -20px;
 }
-.h1div{
-    grid-area: 2 / 1 / 2 / 1;
-    font-size: 22px;
-    margin: 0;
-    margin-top: -30px;
+.h1div {
+  grid-area: 2 / 1 / 2 / 1;
+  font-size: 22px;
+  margin: 0;
+  margin-top: -30px;
 }
-.articlegrid, .articlegrid2, .articlegrid3 img{
-    float: left;
-    margin: 10px 10px 10px 0px;
-    width:40%;
+.articlegrid,
+.articlegrid2,
+.articlegrid3 img {
+  float: left;
+  margin: 10px 10px 10px 0px;
+  width: 40%;
 }
-li{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.articlegrid{
-    grid-area: 3 / 1 / 3 / 1;
+.articlegrid {
+  grid-area: 3 / 1 / 3 / 1;
 }
-.articlegrid2{
-    grid-area: 3 / 2 / 3 / 2;
+.articlegrid2 {
+  grid-area: 3 / 2 / 3 / 2;
 }
-.articlegrid3{
-    grid-area: 3 / 3 / 3 / 3;
+.articlegrid3 {
+  grid-area: 3 / 3 / 3 / 3;
 }
-.articlefloat{
-    float: right;
-    background-color: blue;
-    padding: 0px 10px;
+.articlefloat {
+  float: right;
+  background-color: blue;
+  padding: 0px 10px;
 }
-.articlenumber{
-    color: hsl(233, 8%, 79%);
-    font-size: 3rem;
-    margin-bottom: 10px;
-    margin-top: 0;
-    font-weight: 800;
+.articlenumber {
+  color: hsl(233, 8%, 79%);
+  font-size: 3rem;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 800;
 }
-.articletitle{
-    font-size: 16px;
-    font-weight: 800;
-    margin: 0;
-    margin: 20px 0px;
+.articletitle {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0;
+  margin: 20px 0px;
 }
 .articletitle:hover {
-    color: hsl(35, 77%, 62%);
-    cursor: pointer;
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
 }
-.articlepara{
-    margin: 20px 0px;
-    font-size: 15px;
-    color: hsl(236, 13%, 42%);
+.articlepara {
+  margin: 20px 0px;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
 }
-button{
-    background-color: hsl(5, 85%, 63%);
-    padding: 20px 0px;
+button {
+  background-color: hsl(5, 85%, 63%);
+  padding: 20px 0px;
 }
