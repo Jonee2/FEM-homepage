@@ -10,7 +10,7 @@
 }
 body{
     background-color: hsl(36, 100%, 99%);
-    margin: 0px 500px;
+    margin: 0px 500px 100px;
     font-family: "Inter", sans-serif;
     font-size: 15px;
 }
@@ -80,28 +80,25 @@ button:hover{
 .newdiv h2{
     color: hsl(35, 77%, 62%);
     font-size: 3em;
-    margin: 20px 0px 0px 0px;
-    margin-left: -20px;
+    margin: 20px 0px 0px -20px;
 }
 .newdiv .titleblackbox{
     font-weight: 800;
     font-size: 16px;
     margin-top: 30px;
-    margin-left: -20px;
 }
 .newdiv .parawhite{
-    margin-bottom:50px;
+    margin-bottom:29px;
     font-size: 13px;
     color: hsl(233, 8%, 79%);
-    margin-left: -20px;
-    border-bottom: 1px solid;
-}
-.newdiv .parawhite:first-child{
-    border-bottom: 1px solid;
 }
 .newdiv .titleblackbox:hover {
     color: hsl(35, 77%, 62%);
     cursor: pointer;
+}
+.newdiv2{
+    border-bottom: 1px solid white;
+    margin-left: -20px;
 }
 .h1div{
     grid-area: 2 / 1 / 2 / 1;
@@ -112,6 +109,12 @@ button:hover{
 .articlegrid, .articlegrid2, .articlegrid3 img{
     float: left;
     margin: 10px 10px 10px 0px;
+    width:40%;
+}
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .articlegrid{
     grid-area: 3 / 1 / 3 / 1;
@@ -123,7 +126,7 @@ button:hover{
     grid-area: 3 / 3 / 3 / 3;
 }
 .articlefloat{
-    text-wrap: wrap;
+    float: right;
     background-color: blue;
     padding: 0px 10px;
 }
@@ -145,7 +148,6 @@ button:hover{
     cursor: pointer;
 }
 .articlepara{
-    text-wrap: wrap;
     margin: 20px 0px;
     font-size: 15px;
     color: hsl(236, 13%, 42%);
