@@ -39,7 +39,7 @@ nav img{
 main{
     display: grid;
     grid-template-columns: 330px 330px 330px;
-    grid-template-rows: 280px 250px 300px;
+    grid-template-rows: 280px 150px 300px;
     gap: 20px;
 }
 
@@ -50,19 +50,18 @@ background-size: cover;
 
 }
 .buttondiv{
-text-wrap: pretty;
 grid-area: 2 / 2 / 2 / 2;
-font-size:16px;
+font-size:14px;
 color: hsl(236, 13%, 42%);
 text-align: start;
 }
 .buttondiv button{
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     border: 0;
-    padding:20px 50px;
-    margin-top: 50px;
-    letter-spacing: 4px;
+    padding:15px 40px;
+    margin-top: 10px;
+    letter-spacing: 2px;
     font-weight: 700;
 }
 button:hover{
@@ -81,18 +80,24 @@ button:hover{
 .newdiv h2{
     color: hsl(35, 77%, 62%);
     font-size: 3em;
-    margin: 30px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+    margin-left: -20px;
 }
 .newdiv .titleblackbox{
     font-weight: 800;
     font-size: 16px;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-left: -20px;
 }
 .newdiv .parawhite{
-    margin-bottom:30px;
+    margin-bottom:50px;
     font-size: 13px;
-    color: hsl(233, 8%, 79%)
-
+    color: hsl(233, 8%, 79%);
+    margin-left: -20px;
+    border-bottom: 1px solid;
+}
+.newdiv .parawhite:first-child{
+    border-bottom: 1px solid;
 }
 .newdiv .titleblackbox:hover {
     color: hsl(35, 77%, 62%);
@@ -100,9 +105,9 @@ button:hover{
 }
 .h1div{
     grid-area: 2 / 1 / 2 / 1;
-    font-size: 28px;
+    font-size: 22px;
     margin: 0;
-    margin-top: -40px;
+    margin-top: -30px;
 }
 .articlegrid, .articlegrid2, .articlegrid3 img{
     float: left;
